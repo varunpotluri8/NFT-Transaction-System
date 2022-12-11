@@ -5,6 +5,12 @@ Project for CS 6360 Database design
 # Project description
 In this project, we implemented a web based NFT trading application that can support buying and selling NFT’s with ease. The trader can choose to buy or sell the NFT’s by paying a minimal commission to the system. From time to time, trader can transfer money/Ethereum to their account so that they can buy more NFTs. In this system traders can cancel certain payment and NFT transactions, system will allow such cancellations up to 15 mins after the transaction submission. For this system we have a manager who can see what all transactions performed by traders for daily, weekly, and monthly total transactions based on the dates entered by the manager. For the front end we are using a typescript based Angular Framework and for backend we are using a python-based application framework called flask. For storing traders’ data and transaction data we are using MySQL database. 
 
+# ER Diagram 
+![This is an image](https://github.com/varunpotluri8/NFT-Transaction-System/blob/main/DB_P1.png)
+
+# Relational Schema
+![This is an image](https://github.com/varunpotluri8/NFT-Transaction-System/blob/main/RS.png)
+
 # How to Run
 
 ## BackEnd Installation:
